@@ -39,9 +39,9 @@ Instalar skill de repositório: `git clone <repositório> ~/.claude/skills/<nome
 | 4 | avaliar-ferramenta | Antes de instalar algo, diz se vale, talvez ou é lixo, e por quê | skill: `git clone https://github.com/diegocamara89/avaliar-ferramenta ~/.claude/skills/avaliar-ferramenta` | "avalia esta ferramenta antes de eu instalar" |
 | 5 | organizar | Arruma a pasta de um projeto: guia de orientação + limpeza reversível | em preparação | — |
 | 6 | handoff | Passa uma conversa longa para uma sessão nova sem perder decisões | em preparação | — |
-| 7 | ponytail | Faz o Claude escrever o código mais simples que funciona | em preparação | — |
+| 7 | ponytail | Faz o Claude escrever o código mais simples que funciona | plugin (https://github.com/DietrichGebert/ponytail): `claude plugin marketplace add DietrichGebert/ponytail` e `claude plugin install ponytail@ponytail` | "faz isso no modo ponytail: …" |
 | 8 | superpowers | Método de trabalho: perguntas antes, plano em tarefas pequenas, teste antes do código | plugin oficial: `claude plugin install superpowers@claude-plugins-official` (ou `/plugin` dentro do Claude Code) | "vamos planejar isso com o Superpowers: …" |
-| 9 | hyperframes | Vídeo a partir de uma página da internet (foi assim que os vídeos do Kit foram feitos) | precisa de Node.js; no terminal: `npx hyperframes skills` | "faz um vídeo vertical explicando esta ferramenta" |
+| 9 | hyperframes | Vídeo a partir de uma página da internet (foi assim que os vídeos do Kit foram feitos) | https://github.com/heygen-com/hyperframes · precisa de Node.js; no terminal: `npx hyperframes skills` | "faz um vídeo vertical explicando esta ferramenta" |
 | 10 | notebooklm | Perguntas respondidas só com base nos documentos que você sobe (leis, normas) | `pip install "notebooklm-py[browser]"`; guia: https://github.com/teng-lin/notebooklm-py | "cria um caderno com estas normas e pergunta qual é o prazo" |
 | 11 | lixeira (mod) | Troca o apagar de vez pela Lixeira e barra comando sem volta | `claude plugin marketplace add diegocamara89/claude-mods` e `claude plugin install lixeira@claude-mods-diego` | "apaga a pasta de rascunhos antiga" (deve ir para a Lixeira) |
 | 12 | varredura-push (mod) | Antes de publicar código, procura senha, chave e token e barra o envio | mesmo marketplace: `claude plugin install varredura-push@claude-mods-diego` | "sobe o código para o repositório" |
@@ -56,4 +56,4 @@ Instalar skill de repositório: `git clone <repositório> ~/.claude/skills/<nome
 - A IA erra com confiança: quem assina o documento confere e responde por ele.
 - Ferramenta de terceiro: rode o item 4 antes de instalar.
 
-Autor: Marcelo Diego · https://github.com/diegocamara89 · Licença MIT (cada repositório citado tem a sua).
+Autor: Professor Diego Camara · https://github.com/diegocamara89 · Licença MIT (cada repositório citado tem a sua).
